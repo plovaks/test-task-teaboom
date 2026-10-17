@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3,p{
+    margin: 0;
+}
+
+.item-container{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    padding-inline: 3rem;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    justify-content:center;
+   
+}
+
+.item-main-image{
+    max-width: 30rem;
+}
+
+.item-title{
+    font-size: 2rem;
+}
+
+.item-category{
+    color: #3d3d3d;
+    font-weight: 500;
+}
+
+.item__pictures{
+    width: 60%;
+}
+
+.item__main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+
+.item-weights{
+    margin-block: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.item-weight{
+    padding: 0.2rem 0.5rem;
+    position: relative;
+}
+
+.item-weight:hover{
+    background-color:#dff1d3 ;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.item-weight--active{
+    padding: 0.2rem 0.5rem;
+    background-color: #a0af95;
+    border-radius: 0.5rem;
+}
+.discount{
+    top:-0.2rem;
+    right: 0.5rem;
+    position: absolute;
+    font-size: 0.5rem;
+    color:#939492
+}
+
+.item-article{
+    font-size: 0.75rem;
+    color:#707070;
+}
+
+.item-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-price .item-current-price{
+    font-size: 2rem;
+}
+
+.item-price .item-previous-price{
+    color: #939492;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-addToCart--btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #a0af95;
+    border:1px #a0af95 solid;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    color:aliceblue;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+
+.item-addToCart--btn:hover{
+    cursor: pointer;
+    
+}

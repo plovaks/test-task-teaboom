@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<body>
+    <div class="item-container">
+       <div class="item">
+            <div class="item__pictures">
+                    <img class="item-main-image" src="./images/main-pic.jpg" alt="">
+            </div>
+            <div class="item__main">
+                <p class="item-category">Чай улун</p>
+                <h3 class="item-title">Ананасовый улун</h3>
+                <p class="item-description">Китайский бирюзовый чай, цукаты, натуральные ароматические масла. В прогретой посуде аромат свежей, весенней зелени и спелого ананаса. Скрученный лист медленно раскрывается, отдавая весь свой аромат.</p>
+                
+                <div class="item-weights">
+                    <div class="item-weight item-weight--active" data-art="01306" data-price="326.40" data-old-price="349.20">
+                        <p>100 г</p>
+                    </div>
+                    <div class="item-weight" data-art="01307" data-price="1432" data-old-price="1646">
+                        <p>500 г</p>
+                        <span class="discount">-15%</span>
+                    </div>
+                    <div class="item-weight" data-art="01308" data-price="2064" data-old-price="2592">
+                        <p>1000 г</p>
+                        <span class="discount">-10%</span>
+                    </div>
+                    <div class="item-weight" data-art="01309" data-price="6320" data-old-price="8710">
+                        <p>5000 г</p>
+                        <span class="discount">-15%</span>
+                    </div>
+                </div>
+                <p class="item-article">арт: <span>01306</span></p>
+                <div class="item-info">
+                    <div class="item-price">
+                        <p class="item-current-price">326.40 ₽</p>
+                        <p class="item-previous-price">349.20 ₽</p>
+                    </div>
+                    <button class="item-addToCart--btn">В корзину</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
